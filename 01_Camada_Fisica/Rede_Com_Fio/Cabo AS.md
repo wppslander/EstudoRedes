@@ -1,0 +1,4 @@
+- **Cabo AS** (ou **Cabo Auto-Sustentado**) é um tipo de cabo de fibra óptica que possui um elemento de tração incorporado (como um fio de aço) para ser instalado em ambientes externos, geralmente em postes, sem a necessidade de cabos de sustentação adicionais.
+- Assim como o cabo drop, ele pode ser **[[Fibra Monomodo|monomodo]]** ou **[[Fibra Multimodo|multimodo]]**, dependendo da aplicação.
+- É comum em redes de acesso e distribuição de fibras ópticas, especialmente em ambientes urbanos e rurais, onde a fibra precisa ser suspensa.
+- O cabo AS possui uma variante chamada [[Cabo ASU]]

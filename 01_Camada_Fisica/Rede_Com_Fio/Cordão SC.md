@@ -1,0 +1,3 @@
+O conector SC é maior e mais robusto que o [[Cordão LC|LC]], com um formato quadrado que permite fácil inserção e remoção. Ele possui dois tipos de polimentos: [[UPC]] e [[APC]].
+
+O polimento UPC é caracterizado por ser convexo e o ponto de contato entre as duas fibras fica mais concentrado no centro. Esse tipo de polimento normalmente é utilizado e conexões com conversores de mídia com em módulos [[PON]].

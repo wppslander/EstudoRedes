@@ -1,0 +1,5 @@
+O [[IEEE 802.3]] também especifica uma maneira de controlar o fluxo de dados em uma [[Ethernet]] fuIl duplex por meio do mecanismo de pausa. Na [[[[Ethernet full duplex]], se a extremidade receptora não tiver tempo para processar os dados, ela enviará um quadro PAUSE de 64 [[bit]]s endereçado ao endereço multicast 0180. C200.0001 para interromper a transmissão do remetente por um determinado período de tempo.
+
+Na Ethernet half duplex, o mecanismo de contrapressão é usado para controle de fluxo. Se a extremidade receptora não tiver tempo para processar os dados, ela enviará um sinal de tensão pela linha para forçar uma colisão. Portanto, o remetente pode interromper a transmissão por um determinado período de tempo, e a extremidade receptora pode processar os dados acumulados em seu buffer.
+
+![[ControleDeFluxoEthernet.png]]

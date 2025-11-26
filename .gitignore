@@ -1,0 +1,14 @@
+# Obsidian
+.obsidian/workspace
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/cache
+.obsidian/graph.json
+
+# System
+.DS_Store
+Thumbs.db
+
+# Private
+git
+git.pub

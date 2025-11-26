@@ -1,0 +1,2 @@
+O cabo ASU é uma variante do [[Cabo AS]](cabo auto-sustentado), projetado especificamente para redes de [[Fibra óptica]]. "ASU" significa Auto-Sustentado Unitubular, e ele é amplamente utilizado em redes de telecomunicações, especialmente em aplicações onde a fibra óptica precisa ser instalada em ambiente aéreo, sem a necessidade de suportes adicionais. Por exemplo, em projetos de grande porte, onde são utilizados fibras diferentes para cada tipo de sistema instalado, uma para CFTV, outra para a rede de dados, etc.
+![[Cabo Asu.png]]

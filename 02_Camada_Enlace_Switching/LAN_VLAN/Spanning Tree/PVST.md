@@ -1,0 +1,8 @@
+O STP e o RSTP compartilham uma única instancia em todas as caixas de uma[[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/WLAN_RedeSemFio/WLAN]]. O sistema não pode bloquear os links redundantes por VLANs. Os pacotes de todas as VLANs são encaminhados ao longo de uma árvore de abrangência. O PVST pode ter uma árvore de abrangência em cada VLAN, o que pode melhorar efetivamente a utilização da largura de banda do link. O PVST pode ser interpretado simplesmente como a execução do STP ou do RSTP em cada VLAN. As árvores de abrangência entre diferentes VLANs são completamente independentes.
+
+![[PVSTP.png]]
+
+O [[STP]] e o [[RSTP]] compartilham uma única instancia em todas as caixas de uma [[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/WLAN_RedeSemFio/WLAN]]. O sistema não pode bloquear os links redundantes por [[VLAN]]s. Os pacotes de todas as [[VLAN]]s são encaminhados ao longo de uma árvore de abrangência. O [[PVST]] pode ter uma árvore de abrangência em cada [[VLAN]], o que pode melhorar efetivamente a utilização da largura de banda do link. O [[PVST]] pode ser interpretado simplesmente como a execução do [[STP]] ou do [[RSTP]] em cada [[VLAN]]. As [[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/Spanning Tree/Spanning Tree|árvores de abrangência]] entre diferentes [[VLAN]]s são completamente independentes.
+
+Os dispositivos Intelbras que executam [[PVST]] podem interoperar com os dispositivos terceiros que adotam Rapid PVST ou PVST. Para interconexão entre dispositivos Intelbras que executam PVST ou interconexão entre dispositivos Intelbras que executam PVST e dispositivos de parceiros que executam Rapid PVST, os dispositivos Intelbras suportam convergência rápida como o [[RSTP]].
+

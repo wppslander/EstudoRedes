@@ -1,0 +1,1 @@
+[[Cabos de Cobre]] **STP (Shielded Twisted Pair)**: Possui uma camada de blindagem que protege contra interferências eletromagnéticas, sendo mais adequado para ambientes com maior interferência elétrica.

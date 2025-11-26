@@ -1,0 +1,5 @@
+Assim como a [[Ethernet]], a topologia da [[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/WLAN_RedeSemFio/WLAN]] é composta por uma variedade de elementos básicos. O [[SSID]] (Service Set Identifier, identificador de conjunto de serviços) é usado para distinguir redes diferentes. Com diferentes [[SSID]]s definidos no adaptador de rede sem fio, diferentes redes podem ser acessadas. Os SSIDs geralmente são transmitido pelo AP. A STA pode visualizar os SSIDs na área atual usando a função de varredura do sistema operacional.
+
+O modelo de serviço sem fio é um conjunto de atributos de serviço sem fio, como SSID e modo de autenticação da rede sem fio. O modelo de serviço está vinculado ao ponto de radiofrequência do AP, e o AP pode enviar um sinal sem fio para fornecer um serviço de acesso sem fio. Em uma rede de grande escala, o AC fornece um modelo de serviço sem fio ao AP para configurar o AP.
+
+![[SSID.png]]

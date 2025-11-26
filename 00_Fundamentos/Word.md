@@ -1,0 +1,1 @@
+Um conjunto de 16 [[Bit|bits]] ou 2 [[Byte|bytes]], é chamado de Word

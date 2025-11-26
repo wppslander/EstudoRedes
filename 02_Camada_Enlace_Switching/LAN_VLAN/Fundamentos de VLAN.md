@@ -1,0 +1,3 @@
+Os [[switch]]es [[Ethernet]] encaminham quadros de dados com base em endereços [[MAC]]. Para isso, cada [[switch]] [[Ethernet]] deve manter uma tabela de endereços [[MAC]] que descreva a partir de qual ponto um host pode ser acessado pelo seu endereço [[MAC]]. Ao receber um quadro Ethernet em um ponto, o [[switch]] consulta a tabela de endereços [[MAC]] da porta de saída com base no endereço MAC de destino do quadro. Se o endereço MAC de destino for um endereço de [[broadcast]], o [[switch]] inundará o quadro para todas as portas, exceto a porta de entrada.
+
+A tecnologia de V[[WLAN]]]] adiciona uma tag de VLAN ao quadro [[Ethernet]] para identificar a VLAN em que o quadro pode ser transmitido.

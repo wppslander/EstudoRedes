@@ -1,0 +1,3 @@
+É um tipo de cabo de [[Fibra óptica]] que tem a função de **conectar o ponto de distribuição até a residência ou cliente final** em uma rede de fibra óptica, como as redes FTTH (Fiber to the Home).
+- Pode ser feito com fibra **[[Fibra Monomodo]]** ou **[[Fibra Multimodo]]**, dependendo da necessidade do projeto de rede.
+- Em redes FTTH, geralmente utiliza-se **fibra monomodo** devido à necessidade de transportar o sinal a longas distâncias com menor perda.

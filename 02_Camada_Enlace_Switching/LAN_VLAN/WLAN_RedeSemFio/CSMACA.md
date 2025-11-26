@@ -1,0 +1,3 @@
+- **Usado em Redes Sem Fio ([[Wi-Fi]])**: Ideal para redes onde as colisões não podem ser detectadas com facilidade, como em redes Wi-Fi.
+- **Funcionamento**: Antes de transmitir, o dispositivo “ouve” o meio para verificar se ele está ocupado. Se o meio estiver livre, o dispositivo envia um sinal de “intenção de transmissão” (RTS - Request to Send). Outros dispositivos aguardam uma confirmação (CTS - Clear to Send) antes de transmitirem, evitando colisões.
+- **Evita Colisões**: Em redes sem fio, a detecção de colisões é difícil, então o CSMA/CA trabalha de forma preventiva, “evitando” que duas transmissões ocorram ao mesmo tempo.

@@ -1,0 +1,5 @@
+- **Definição**: A largura de banda refere-se à capacidade máxima de um canal de comunicação ou rede para transmitir dados em um determinado período. É geralmente medida em **bits por segundo (bps)**, como **megabits por segundo (Mbps)** ou **gigabits por segundo (Gbps)**.
+- **Conceito**: A largura de banda é como uma “largura” de um tubo: quanto mais largo o tubo, mais água (dados) pode passar por ele ao mesmo tempo. Assim, uma largura de banda maior permite que mais dados sejam transmitidos simultaneamente.
+- **Importância**: A largura de banda é um fator crítico para o desempenho da rede, pois determina quantos dados podem ser enviados ou recebidos em um determinado tempo. Redes com largura de banda maior podem suportar mais usuários ou serviços simultâneos sem degradação do desempenho.
+Relação:
+[[Camada Física]]

@@ -1,0 +1,6 @@
+Quando um quadro sem tag chega a um [[switch]] de acesso, o [[switch]] insere uma tag de [[VLAN]] no cabeçalho do quadro para identificar em qual VLAN o quadro pode ser transmitido. Ao encaminhar um quadro com tag de [[VLAN]] para um host diretamente conectado, o [[switch]] de acesso remove a [[tag]] de [[VLAN]].
+
+A atribuição de [[VLAN]] e a remoção da tag de VLAN são transparentes para os [[host]]s de origem e destino. Os [[host]]s não precisam saber como a atribuição de [[VLAN]] é realizada na rede ou reconhecer os quadros com marcação 802.1Q.
+
+![[tagvlan.png]]
+Você pode configurar o tipo de link de uma porta como access, trunk ou hybrid, dependendo da finalidade da porta. O método de manipulação de tags de VLAN e o número de VLANs que uma porta pode transportar variam de acordo com os tipos de link. Cada ponto tem uma VLAN padrão, que é chamada PVID e, às vezes, conhecida como [[VLAN]] nativa. Por padrão, a VLAN 1 é a VLAN padrão de todos as portas. Ela pode ser alterada conforme necessário.

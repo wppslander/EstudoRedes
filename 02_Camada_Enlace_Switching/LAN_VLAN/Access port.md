@@ -1,0 +1,7 @@
+Uma access port pode ser atribuída a apenas uma [[VLAN]]. Portanto, essa [[VLAN]] também é o [[PVID]] da porta. Uma access port marca cada quadro [[Ethernet]] de entrada com o [[PVID]] e encaminha cada quadro de saída com a etiqueta de [[VLAN]] removida. Normalmente, as access port são usadas para conectar dispositivos que não precisam reconhecer o protocolo [[802.1Q]], como [[host]]s e [[roteador]]es de usuários finais.
+
+![[AccessPort.png]]
+
+Conforme descrito anteriormente, uma função importante da tecnologia VLAN é segmentar uma[[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/WLAN_RedeSemFio/WLAN]] em grupos de trabalho virtuais com base na organização e não na localização física. Todas as estações de trabalho e servidores em um grupo de trabalho panicular podem ser atribuídos à mesma VLAN, independentemente de suas localizações físicas na[[Modelo OSI/Camada De Interface de Rede/LAN_VLAN/WLAN_RedeSemFio/WLAN]]. Portanto, uma VLAN pode abranger vários switches.  
+
+Para garantir que os hosts em uma VLAN possam se comunicar entre si, as tags de VLAN dos quadros Ethernet devem ser mantidas quando forem transmitidas entre os switches. Mas este é o processo que veremos no próximo tópico.

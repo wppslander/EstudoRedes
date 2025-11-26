@@ -1,0 +1,2 @@
+[[Cabos de Cobre]] **UTP (Unshielded Twisted Pair)**: Não tem blindagem, sendo mais suscetível a interferências, mas é mais barato e amplamente utilizado em redes locais ([[WLAN]]]]s).
+Fazem parte da [[Camada Física]] no [[Modelo OSI]]

@@ -1,0 +1,2 @@
+É um [[Cordões Ópticos]] o LC é conhecido por seu design compacto, ocupando metade do espaço de um conector SC. Possui uma trava para encaixe e geralmente é utilizado em conexão de módulos mini [[GBIC]] compatíveis com [[SFP]] ou [[SFP]]+, por exemplo.
+![[Cordão LC.png]]

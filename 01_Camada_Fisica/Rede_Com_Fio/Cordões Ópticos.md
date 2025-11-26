@@ -1,0 +1,2 @@
+Os cordões ópticos, também conhecidos como patch cords ou patch cables, são cabos de [[Fibra óptica]] usados para interconectar dispositivos em uma rede de comunicação óptica. Eles consistem de um cabo de fibra óptica de curto comprimento com conectores em ambas as extremidades, permitindo a conexão entre diferentes equipamentos, como [[Switch]], [[Roteadores]], e [[caixas de distribuição óptica]]. Dentre os tipos de cordões ópticos, os mais comuns são com conectores LC ou SC.
+Modelos de cordão [[Cordão LC]], [[Cordão SC]]
