@@ -23,16 +23,16 @@ Este material serve como base de conhecimento para as seguintes certificações 
 
 A estrutura de pastas segue um fluxo lógico de aprendizado, partindo da camada física até a aplicação e serviços:
 
-| Diretório | Conteúdo Principal | Tags Relacionadas |
-| :--- | :--- | :--- |
-| `00_Fundamentos` | Base teórica, binário, hexadecimal e introdução ao Modelo OSI. | `#Redes` `#Teoria` |
-| `01_Camada_Fisica` | Cabeamento estruturado, Fibra Óptica, Modulação e RF. | `#Layer1` |
-| `02_Camada_Enlace_Switching` | Switching, VLANs, STP/RSTP/MSTP, MAC Address. | `#MTCSWE` `#Layer2` |
-| `03_Camada_Rede_Roteamento` | Roteamento estático/dinâmico, OSPF, Estrutura da Internet (WAN/MAN). | `#MTCRE` `#Layer3` |
-| `04_Wireless_WLAN` | Wi-Fi (802.11), Canais, Frequências e Roaming. | `#MTCWE` `#Wireless` |
-| `05_Seguranca_VPN` | Túneis (WireGuard, IPsec), Firewalls e Criptografia. | `#MTCSA` `#Security` |
-| `06_Infraestrutura_Virtualizacao` | Servidores, Virtualização, QoS e Datacenter. | `#Infra` |
-| `99_MikroTik_Labs` | **Laboratórios Práticos** e comandos específicos do RouterOS (Bridge VLAN, Chains). | `#RouterOS` `#Labs` |
+| Diretório                         | Conteúdo Principal                                                                  | Tags Relacionadas    |
+| :-------------------------------- | :---------------------------------------------------------------------------------- | :------------------- |
+| `00_Fundamentos`                  | Base teórica, binário, hexadecimal e introdução ao Modelo OSI.                      | `#Redes` `#Teoria`   |
+| `01_Camada_Fisica`                | Cabeamento estruturado, Fibra Óptica, Modulação e RF.                               | `#Layer1`            |
+| `02_Camada_Enlace_Switching`      | Switching, VLANs, STP/RSTP/MSTP, MAC Address.                                       | `#MTCSWE` `#Layer2`  |
+| `03_Camada_Rede_Roteamento`       | Roteamento estático/dinâmico, OSPF, Estrutura da Internet (WAN/MAN).                | `#MTCRE` `#Layer3`   |
+| `04_Wireless_WLAN`                | Wi-Fi (802.11), Canais, Frequências e Roaming.                                      | `#MTCWE` `#Wireless` |
+| `05_Seguranca_VPN`                | Túneis (WireGuard, IPsec), Firewalls e Criptografia.                                | `#MTCSA` `#Security` |
+| `06_Infraestrutura_Virtualizacao` | Servidores, Virtualização, QoS e Datacenter.                                        | `#Infra`             |
+| `99_MikroTik_Labs`                | **Laboratórios Práticos** e comandos específicos do RouterOS (Bridge VLAN, Chains). | `#RouterOS` `#Labs`  |
 
 ---
 
@@ -48,7 +48,7 @@ A estrutura de pastas segue um fluxo lógico de aprendizado, partindo da camada 
 
 1.  Clone este repositório:
     ```bash
-    git clone https://github.com/SEU_USUARIO/NOME_DO_REPO.git
+    git clone https://github.com/wppslander/estudo.git
     ```
 2.  Abra a pasta como um "Cofre" (Vault) no **Obsidian**.
 3.  Navegue pelos links ou utilize a busca (`Ctrl+K`) para encontrar tópicos como `[[VLAN]]` ou `[[Wireguard]]`.
@@ -60,4 +60,4 @@ A estrutura de pastas segue um fluxo lógico de aprendizado, partindo da camada 
 Estas são anotações pessoais de estudo. Embora eu me esforce pela precisão técnica, o conteúdo reflete meu entendimento no momento da escrita e pode conter simplificações para fins didáticos. Sempre consulte a [Documentação Oficial da MikroTik](https://help.mikrotik.com/docs/) para implementações em produção.
 
 ---
-*Criado e mantido por Dani.*
+*Criado e mantido por Daniel Wppslander.*
