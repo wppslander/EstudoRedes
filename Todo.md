@@ -55,5 +55,14 @@ This list outlines topics to be covered or expanded to align with the MikroTik C
   - [ ] Configuração de PoE em dispositivos MikroTik
   - [ ] Padrões PoE (802.3af, at, bt)
 
+## 9. Automação de Infraestrutura (IaC)
+- [ ] Estudar **Ansible** (Recomendação: LearnLinuxTV)
+  - [ ] Instalação e conceitos básicos (Inventory, Playbooks, Tasks)
+  - [ ] Gerenciamento de servidores Linux (Debian/Ubuntu)
+  - [ ] **Ansible para MikroTik** (RouterOS modules)
+    - [ ] Backup automático de configurações
+    - [ ] Atualização em massa de usuários/senhas
+    - [ ] Configuração de VLANs via Ansible
+
 ---
 **Observação:** Ao criar as notas, lembre-se de seguir as convenções existentes (idioma, links internos, organização).
