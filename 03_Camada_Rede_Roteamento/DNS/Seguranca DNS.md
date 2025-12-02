@@ -30,9 +30,9 @@ Similar ao DoH, mas usa um túnel TLS dedicado na porta **853**. É mais fácil 
 
 ### Resumo das Diferenças
 
-| Protocolo | Porta | Criptografado? | Foco Principal |
-| :--- | :--- | :--- | :--- |
-| **DNS Padrão** | 53 (UDP) | Não | Velocidade / Legado |
-| **DNSSEC** | 53 (UDP) | Não (Só Assinado) | Integridade (Evitar Falsificação) |
-| **DoH** | 443 (TCP) | Sim (HTTPS) | Privacidade (Esconder o destino) |
-| **DoT** | 853 (TCP) | Sim (TLS) | Privacidade (Padrão dedicado) |
+| Protocolo      | Porta     | Criptografado?    | Foco Principal                    |
+| :------------- | :-------- | :---------------- | :-------------------------------- |
+| **DNS Padrão** | 53 (UDP)  | Não               | Velocidade / Legado               |
+| **DNSSEC**     | 53 (UDP)  | Não (Só Assinado) | Integridade (Evitar Falsificação) |
+| **DoH**        | 443 (TCP) | Sim (HTTPS)       | Privacidade (Esconder o destino)  |
+| **DoT**        | 853 (TCP) | Sim (TLS)         | Privacidade (Padrão dedicado)     |
