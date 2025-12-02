@@ -1,3 +1,5 @@
+#MTCNA #MTCSA #Security #VPN
+
 Uma **VPN (Virtual Private Network)** é uma tecnologia que permite criar uma **conexão segura** entre dispositivos em redes públicas ou privadas, usando uma rede pública (geralmente a internet) para estabelecer um canal de comunicação protegido entre eles. O objetivo principal de uma VPN é fornecer **privacidade, segurança e anonimato** para os usuários, além de permitir acesso remoto a redes corporativas e a conteúdos geograficamente restritos.
 
 ### Como Funciona uma VPN

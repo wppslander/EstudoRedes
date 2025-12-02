@@ -1,4 +1,4 @@
-#MTCNA #MTCSWE
+#MTCNA #MTCSWE #Layer2 #Hardware
 
 Um **switch** é um dispositivo de rede que conecta diferentes dispositivos dentro de uma mesma rede local ([[WLAN]]]]), permitindo a comunicação entre eles. Seu principal papel é o de gerenciar e otimizar o tráfego de dados, fazendo com que pacotes de dados sejam enviados apenas aos dispositivos de destino correto, o que melhora o desempenho e reduz a possibilidade de colisões de dados na rede.
 

@@ -1,4 +1,4 @@
-#MTCNA #MTCWE
+#MTCNA #MTCWE #Wireless
 
 Wi-Fi é uma tecnologia de rede sem fio que permite conexões de internet e comunicação entre dispositivos sem o uso de fios. Aqui estão os detalhes:
 

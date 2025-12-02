@@ -1,3 +1,5 @@
+#MTCNA #Layer1 #Fundamentos
+
 A **camada Física** é a primeira camada do [[Modelo OSI]] e trata diretamente dos aspectos mais básicos da transmissão de dados em uma rede. Ela define os padrões para a comunicação física entre dispositivos, como cabos, sinais elétricos, ondas de rádio e conectores. Sua principal responsabilidade é enviar e receber os [[Bit]]s (0s e 1s) que compõem os dados, mas sem qualquer preocupação com o significado desses [[Bit]]s.
 
 ### Principais Funções da Camada Física:
