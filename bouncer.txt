@@ -1,0 +1,122 @@
+# 📧 Verificador de E-mails com Erro de Entrega
+
+Este projeto automatiza a verificação de mensagens de erro de entrega (bounce messages) em uma caixa de entrada IMAP, identifica os e-mails que falharam, interpreta os códigos SMTP retornados e envia uma notificação para o time de suporte com uma explicação amigável e detalhada do problema.
+
+---
+
+## 📁 Estrutura do Projeto
+
+```
+verificar_email/
+├── config/                 # Arquivo .env com credenciais e configurações
+├── src/
+│   ├── Email/              # Leitura via IMAP, processamento e envio de notificação
+│   ├── Storage/            # Gerenciamento de e-mails já notificados
+│   └── Error/              # Dicionário de códigos SMTP e mensagens traduzidas
+├── logs/                  # Logs do sistema (não versionados)
+├── tests/                 # Testes unitários (PHPUnit - opcional)
+├── vendor/                # Dependências via Composer
+├── .env                   # Variáveis de ambiente (não versionado)
+├── .gitignore             # Arquivos e pastas ignorados pelo Git
+├── index.php              # Script principal de execução
+└── README.md              # Este arquivo
+```
+
+---
+
+## ⚙️ Requisitos
+
+- PHP 7.4 ou superior
+- Composer
+- Acesso a um servidor IMAP (ex: Gmail, Zimbra, etc.)
+- Permissão para enviar e-mails via SMTP
+
+---
+
+## 🔧 Instalação
+
+1. Clone ou copie este projeto:
+
+```bash
+cd ~/projects
+git clone <repositório> verificar_email
+cd verificar_email
+```
+
+2. Instale as dependências via Composer:
+
+```bash
+composer install
+```
+
+3. Copie e configure o `.env`:
+
+```bash
+cp config/.env.example .env
+```
+
+Edite as variáveis com suas credenciais IMAP e SMTP.
+
+---
+
+## 🧪 Execução
+
+Rode o script principal manualmente:
+
+```bash
+php index.php
+```
+
+Você verá logs de cada etapa no terminal. Os e-mails processados serão marcados para exclusão no servidor e os erros notificados.
+
+---
+
+## 🛡️ Segurança
+
+- Nunca commit o `.env` com suas credenciais.
+- Verifique o `.gitignore` para garantir que `logs/`, `.env`, `vendor/` e arquivos temporários estão protegidos.
+
+---
+
+## 🧰 Tecnologias utilizadas
+
+- **PHP**
+- **PHPMailer** – envio de e-mail via SMTP
+- **IMAP PHP** – leitura da caixa de entrada
+- **Monolog** – sistema de logs
+- **vlucas/phpdotenv** – gerenciamento de variáveis de ambiente
+
+---
+
+## ✏️ Desenvolvimento e Manutenção
+
+### Adicionando novos códigos de erro SMTP:
+Edite o arquivo:
+
+```
+src/Error/ErrorDictionary.php
+```
+
+E adicione o código e a explicação no array interno da classe.
+
+---
+
+### Rodando testes (opcional):
+Caso queira criar testes unitários:
+
+```bash
+vendor/bin/phpunit tests/
+```
+
+---
+
+## 📌 Licença
+
+Uso interno e educacional. Adaptável para uso corporativo.
+
+---
+
+## 👨‍💻 Autor
+
+**Daniel Wppslander**  
+Analista de Suporte, DevOps e Infraestrutura  

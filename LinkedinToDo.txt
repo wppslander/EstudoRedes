@@ -1,0 +1,83 @@
+# 🚀 LinkedIn Transformation Plan: De "Analista de Suporte" para "Engenheiro de Infraestrutura/DevOps"
+
+Este plano visa reposicionar seu perfil no mercado, saindo da percepção de "Generalista Nível 1" para "Especialista em Infraestrutura e Automação". Seu salário atual (R$ 3.200) está muito abaixo do valor que você entrega. Vamos ajustar sua vitrine para buscar vagas de R$ 5.000+.
+
+---
+
+## 1. 🏷️ Título (Headline)
+O título é a primeira coisa que recrutadores e algoritmos leem. Tire "Analista de Sistemas e TI". É genérico demais.
+
+**Sugestão Principal:**
+> SysAdmin | Infraestrutura & DevOps | Linux, Zabbix, MikroTik & Proxmox | PHP Automation
+
+**Opção Alternativa (focada em Cloud/ISP):**
+> Analista de Infraestrutura Pleno | Redes & Virtualização | SRE Enthusiast
+
+---
+
+## 2. 📝 Sobre (About)
+Aqui contamos sua história de **resolução de problemas**. Não liste apenas ferramentas, mostre impacto.
+
+**Sugestão de Texto (Copie, adapte e cole):**
+
+"Profissional de Infraestrutura e Sistemas com sólida experiência em transformar ambientes de TI não estruturados em ecossistemas organizados, seguros e monitorados. Minha carreira é marcada pela iniciativa de 'colocar ordem na casa', saindo de processos manuais para automação e governança.
+
+Especialista em Linux, Virtualização (Proxmox) e Redes (MikroTik), com forte viés para automação via Scripting (PHP/Bash) e Bancos de Dados.
+
+**Principais entregas que definem meu perfil:**
+*   **Gestão de Identidade:** Projetei e desenvolvi um sistema centralizado de gestão de usuários (SQL) integrando E-mail, VPN e Telefonia, eliminando controles manuais e redundantes.
+*   **Segurança & E-mail:** Gerencio infraestrutura crítica de e-mail (Proxmox Mail Gateway) processando +100k mensagens/mês com alta filtragem de spam e DNSBL, além de implementação de Bitdefender GravityZone em +60 endpoints.
+*   **Observabilidade:** Implementei Zabbix do zero, monitorando 100% da infraestrutura crítica (Roteadores de Borda, Túneis, Servidores), reduzindo drasticamente o downtime e permitindo atuação proativa antes que o usuário perceba falhas.
+*   **Virtualização:** Migração e gestão de ambiente para Proxmox VE, seguindo melhores práticas de segurança (Hardening), segmentação de rede e políticas rigorosas de backup (PBS).
+
+Busco oportunidades onde possa aplicar essa visão de 'Engenharia de Confiabilidade' (SRE), automatizando o operacional para focar na evolução estratégica da infraestrutura."
+
+---
+
+## 3. 💼 Experiência Profissional (A "Carne" do Currículo)
+
+Na sua experiência atual (**Digital SAT**), vamos quebrar em tópicos de impacto.
+
+**Cargo:** Analista de Infraestrutura e Sistemas (SysAdmin)
+**Descrição:**
+
+*   **Reestruturação de Dados Corporativos:** Desenvolvi e implementei Banco de Dados Relacional para centralizar informações vitais da empresa (Vínculo E-mail, VPN, Ramais), criando Views e Procedures para garantir integridade e agilidade no acesso à informação, substituindo planilhas desconexas.
+*   **Automação de Processos (DevOps):** Criei ferramentas internas em PHP para automação de notificações e tratamento de erros de entrega de e-mails (Bouncer Handler), otimizando o tempo da equipe de suporte.
+*   **Alta Disponibilidade e Virtualização:** Arquitetei o ambiente de virtualização com **Proxmox VE**, garantindo uptime superior a 100 dias em servidores críticos, com políticas de backup automatizadas (Proxmox Backup Server) e Gateway de E-mail (PMG) filtrando +100.000 mensagens/mês.
+*   **Monitoramento Estratégico:** Implantação total do **Zabbix** cobrindo 12 roteadores de borda, túneis VPN, servidores e proxies. Configurei alertas inteligentes que eliminaram o downtime não planejado.
+*   **Segurança da Informação:** Liderança na implementação do **Bitdefender GravityZone** em 60% do parque tecnológico (+60 endpoints), criando políticas personalizadas para compatibilidade com softwares legados e segmentação de VLANs.
+*   **Governança de TI (ITAM):** Implementação do zero de processo de Gestão de Ativos, catalogando e rastreando todo o ciclo de vida do hardware e software da empresa, garantindo conformidade e redução de perdas.
+*   **Redes e Conectividade:** Gestão de Roteadores **MikroTik**, Túneis Cloudflare e Docker, garantindo acesso remoto seguro e estável para filiais e colaboradores externos.
+
+---
+
+## 4. 🔧 Competências (Skills)
+Adicione estas competências ao seu perfil e peça para colegas validarem:
+*   Proxmox VE & Proxmox Mail Gateway
+*   Zabbix (Monitoring & Alerting)
+*   Linux System Administration (Debian/Ubuntu)
+*   MikroTik (RouterOS, VPN, VLAN)
+*   SQL (Database Design, Procedures)
+*   PHP (Automation Scripting)
+*   Docker & Containerization
+*   Segurança da Informação (Firewall, Antivirus Management)
+
+---
+
+## 5. 🌟 Projetos em Destaque (Featured)
+No LinkedIn, existe uma seção "Destaques" (Featured). Adicione links para seu GitHub com capas bonitas.
+
+1.  **Projeto Bouncer Handler (PHP/IMAP):**
+    *   *Link:* (Seu repositório GitHub)
+    *   *Descrição:* "Sistema automatizado para leitura e tratamento de bounce messages (erros de entrega), notificando suporte e limpando listas de e-mail."
+2.  **Repositório de Estudos de Redes (Knowledge Base):**
+    *   *Link:* https://github.com/wppslander/EstudoRedes
+    *   *Descrição:* "Documentação técnica aprofundada sobre Protocolos de Rede, Modelo OSI, Switching Avançado e Labs MikroTik."
+
+---
+
+## 🎯 Próximos Passos
+1.  [ ] Atualizar Foto de Perfil e Capa (algo tecnológico ou de escritório limpo).
+2.  [ ] Aplicar as mudanças de texto acima hoje mesmo.
+3.  [ ] Conectar-se com recrutadores de empresas alvo (Unifique, Ambev Tech, Havan Labs, TIVIT).
+4.  [ ] Começar a postar: Uma vez por semana, tire um print de um dashboard do Zabbix (borrando dados sensíveis) ou de um script e escreva: "Hoje automatizei X e economizei Y horas da equipe. #SysAdmin #DevOps".

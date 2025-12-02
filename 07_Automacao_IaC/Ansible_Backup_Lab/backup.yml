@@ -1,0 +1,49 @@
+---
+- name: Backup Diário dos MikroTiks
+  hosts: mikrotik
+  gather_facts: no
+  vars:
+    backup_dir: "./backups/{{ inventory_hostname }}"
+    date: "{{ lookup('pipe', 'date +%Y-%m-%d') }}"
+    filename: "backup_{{ inventory_hostname }}_{{ date }}.rsc"
+
+  tasks:
+    - name: Criar diretório de backup local se não existir
+      delegate_to: localhost
+      file:
+        path: "{{ backup_dir }}"
+        state: directory
+        mode: '0755'
+
+    - name: Gerar arquivo de export no MikroTik
+      community.routeros.command:
+        commands:
+          - /export show-sensitive file={{ filename }}
+
+    - name: Aguardar 2 segundos para o arquivo ser gravado
+      wait_for:
+        timeout: 2
+      delegate_to: localhost
+
+    # O RouterOS é chato para baixar arquivos via SCP diretamente com alguns módulos.
+    # Uma abordagem comum e robusta é usar SFTP/SCP puro ou o módulo net_get (se suportado).
+    # Mas para simplificar aqui, vamos assumir que o comando rodou.
+    # OBS: Para baixar arquivos do MT, muitas vezes é mais fácil usar o módulo 'net_get'
+    # ou um script bash com 'scp' se o módulo falhar.
+    
+    # Vamos tentar um método genérico de baixar via SFTP (que o MT suporta)
+    # usando o módulo 'fetch' (que funciona se o python estiver rodando lá, o que NÃO é o caso do MT).
+    # Como MT não roda Python, o módulo 'fetch' padrão não funciona.
+    # Precisamos usar o 'net_get' ou 'ansible.netcommon.net_get'.
+    
+    - name: Baixar o backup para a máquina local (Controller)
+      ansible.netcommon.net_get:
+        src: "{{ filename }}"
+        dest: "{{ backup_dir }}/{{ filename }}"
+        protocol: sftp
+      # Se falhar, pode ser necessário habilitar SFTP no Service do MikroTik
+
+    - name: Remover backup do MikroTik para economizar espaço
+      community.routeros.command:
+        commands:
+          - /file remove {{ filename }}

@@ -28,7 +28,7 @@ A estrutura de pastas segue um fluxo lógico de aprendizado, partindo da camada 
 | `00_Fundamentos`                  | Base teórica, binário, hexadecimal e introdução ao Modelo OSI.                      | `#Redes` `#Teoria`   |
 | `01_Camada_Fisica`                | Cabeamento estruturado, Fibra Óptica, Modulação e RF.                               | `#Layer1`            |
 | `02_Camada_Enlace_Switching`      | Switching, VLANs, STP/RSTP/MSTP, MAC Address.                                       | `#MTCSWE` `#Layer2`  |
-| `03_Camada_Rede_Roteamento`       | Roteamento estático/dinâmico, OSPF, Estrutura da Internet (WAN/MAN).                | `#MTCRE` `#Layer3`   |
+| `03_Camada_Rede_Roteamento`       | IPv4/IPv6, Protocolos (ARP, DHCP, ICMP), Transporte (TCP/UDP) e Roteamento.         | `#MTCRE` `#Layer3`   |
 | `04_Wireless_WLAN`                | Wi-Fi (802.11), Canais, Frequências e Roaming.                                      | `#MTCWE` `#Wireless` |
 | `05_Seguranca_VPN`                | Túneis (WireGuard, IPsec), Firewalls e Criptografia.                                | `#MTCSA` `#Security` |
 | `06_Infraestrutura_Virtualizacao` | Servidores, Virtualização, QoS e Datacenter.                                        | `#Infra`             |
