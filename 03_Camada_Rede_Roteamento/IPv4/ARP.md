@@ -14,9 +14,16 @@ Quando um dispositivo (Host A) precisa enviar um pacote IP para outro dispositiv
 
 A cache ARP é uma tabela mantida por cada dispositivo de rede que armazena os mapeamentos IP-MAC aprendidos. Se um dispositivo precisa se comunicar com um endereço IP cujo mapeamento já está na cache, ele pode usar essa informação diretamente, agilizando a comunicação e reduzindo o tráfego de broadcast. As entradas na cache ARP têm um tempo de vida (TTL) e são removidas se não forem usadas.
 
-### Importância
+### Relação com Hostname e DNS
 
-O ARP é fundamental para a operação das redes Ethernet/IP, pois a [[Camada de Rede]] trabalha com endereços IP, mas a [[Camada Interface de Rede]] (enlace de dados) precisa de endereços MAC para entregar os quadros de forma física. Ele preenche a lacuna entre essas duas camadas, permitindo a comunicação efetiva.
+Muitas vezes surge a confusão: "O ARP resolve o nome do computador?"
+
+**Não.** O ARP resolve apenas **IP $\rightarrow$ MAC**.
+Existe uma cadeia de eventos que ocorre quando você tenta acessar um computador pelo nome (ex: `ping computador-dani`):
+
+1.  **Resolução de Nome**: O seu computador usa o [[DNS]] (ou arquivo hosts) para descobrir que `computador-dani` corresponde ao IP `192.168.1.50`.
+2.  **Resolução de Endereço (ARP)**: Agora que seu computador tem o IP (`192.168.1.50`), ele usa o **ARP** para descobrir qual é o [[MAC]] address daquele IP.
+3.  **Envio**: O dado é enviado para o MAC descoberto.
 
 ### Protocolos Relacionados
 

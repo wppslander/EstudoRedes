@@ -2,6 +2,8 @@
 
 O **DHCP** (Dynamic Host Configuration Protocol) é um protocolo de gerenciamento de rede utilizado para automatizar o processo de configuração de dispositivos em redes IP. Ele opera na **Camada de Aplicação** (Modelo OSI), mas é fundamental para o funcionamento da [[Camada de Rede]].
 
+> **Nota**: Este artigo foca no **DHCPv4** (para IPv4). O IPv6 possui uma versão separada chamada DHCPv6, embora frequentemente utilize o método SLAAC.
+
 ### Como Funciona (Processo DORA)
 
 A comunicação DHCP ocorre tipicamente em quatro etapas, conhecidas pelo acrônimo **DORA**:
